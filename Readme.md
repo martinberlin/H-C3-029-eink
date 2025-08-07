@@ -19,6 +19,6 @@ IO Description
 7 SCL --> I2C connected to RTC
 ```
 
-![CPU schematic](/components/imgs/1.0_CPU_sch.png)
+
 
 
