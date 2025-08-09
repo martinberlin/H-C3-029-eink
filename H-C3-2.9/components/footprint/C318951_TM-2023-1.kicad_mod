@@ -573,9 +573,9 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "42593a50-6c55-4afc-ace3-e7ea8ec94b72")
 	)
-	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SW-SMD_TM-2023-1.wrl"
+	(model "${KIPRJMOD}/components/3D/C318951_TM-2023-1.wrl"
 		(offset
-			(xyz 0 2.44 0.5)
+			(xyz 0 -0.56 0)
 		)
 		(scale
 			(xyz 1 1 1)
