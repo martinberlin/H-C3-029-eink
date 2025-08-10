@@ -461,7 +461,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "H-C6-ulp.kicad_pro",
+    "filename": "H-C3-ulp29.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -496,8 +496,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
-      "pos_files": "",
+      "plot": "fabrication/GRB/",
+      "pos_files": "fabrication/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
