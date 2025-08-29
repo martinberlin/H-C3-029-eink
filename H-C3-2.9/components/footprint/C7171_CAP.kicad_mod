@@ -1,0 +1,149 @@
+(footprint "C7171_CAP"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "5d54a2eb-af06-49d4-8f47-570d968113c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CAP-SMD_L3.2-W1.6-RD-C7171"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "e06d725e-7e58-4c59-9fd9-67366a1d55fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc1e5afc-4fc5-4d02-b0ee-2d81b4a8cc67")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ab379963-18c2-47b5-aec3-40150fe514b1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3 -1.5)
+		(end -2 -1.5)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a754d37e-8dff-4344-9fd4-943ff5940757")
+	)
+	(fp_line
+		(start -2.5 -2)
+		(end -2.5 -1)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7774301b-d2dc-4e6f-a051-4f580053ebe9")
+	)
+	(fp_line
+		(start -0.4 0.88)
+		(end -0.4 -0.88)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4375c718-7560-470d-9797-e67e900848d1")
+	)
+	(fp_line
+		(start 1.68 -0.88)
+		(end -1.68 -0.88)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "415fd7a5-167e-435b-a48d-5d5852dcb354")
+	)
+	(fp_line
+		(start 1.68 0.88)
+		(end -1.68 0.88)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cb3fe6ce-b450-45e0-a2ce-30be2c61e7a9")
+	)
+	(fp_circle
+		(center -1.78 -0.89)
+		(end -1.75 -0.89)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "cf50aaf3-8675-45d6-9dad-c7ca6167b10d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "7bccfea9-3cfc-4c48-9eb3-aeaa9614aed4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.69 0 180)
+		(size 1.76 1.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "09614ec3-1d31-423f-8a6f-d775a1912b61")
+	)
+	(pad "2" smd rect
+		(at 1.69 0 180)
+		(size 1.76 1.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1d3e731f-a112-4c69-9a86-e22cb55ea378")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/components/3D/C7171_CAP_CASE-A_L3.2-W1.6-H1.6.wrl"
+		(offset
+			(xyz 0 -0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
