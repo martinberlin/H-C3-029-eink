@@ -9,4 +9,10 @@ UART, I2C, SPI, ADC, DMA, PWM etc.
 
 ### PCB 3D Render
 
-![PCB Render](bbb_pcb_1.1.png) 
+![PCB Render](bbb_pcb_1.1.png)
+
+### Related repositories
+
+[MFR Badge](https://github.com/bitbank2/MFRBadge) MacOS/iOS app to program the Maker Faire Rome badges
+
+[bb_epaper](https://github.com/bitbank2/bb_epaper) Larry Bank library for SPI epaper displays 
